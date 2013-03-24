@@ -1,0 +1,14 @@
+a key value db wrapper for gae,sae,redis,mongodb
+
+it is implemented for easy to use gae,sea,redis,mongodb's model
+
+it is written by pure python
+
+
+usage:
+
+>>> import simple_kvdb as skvdb
+>>> db = skvdb.get_skvdb('mongodb')
+>>> db.set('test', 123)
+>>> db.get('test')
+123
